@@ -1,0 +1,67 @@
+body,
+ul,p{
+    font-family: calibri;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.phones{
+    margin: 50px 0 0 20px;
+    padding-bottom: 20px;
+    border: 1px solid #b2b2b2;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 320px;
+}
+.phone{
+    position: relative;
+    height: 60px;
+    padding: 10px 0 0 10px;
+}
+.phone:hover{
+    cursor: pointer;
+}
+.phone.active{
+    background: #f0f0f0;
+    height: 150px;
+}
+.phone header{
+    font-weight: bold;
+    padding-right: 20px;
+    display: flex;
+    width: 90%;
+    height: 24px;
+    justify-content: space-between;
+}
+.phone p{
+    width: 100%;
+    color: #6d6d6d;
+}
+.separator{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #b2b2b2;
+}
+.active .separator{
+    border:none;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-top: 10px;
+    padding:0 15px;
+}
+.show-details{
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.show-details a{
+    text-decoration: none;
+    color:#7fd57b;
+}
+
