@@ -1,9 +1,9 @@
 <img ng-src="{{'./images/'+ctrl.currentPhone.img}}" alt=""/>
 <h1>Основные характеристики телефона: <br/>{{ctrl.currentPhone.name+ " "+ ctrl.currentPhone.model}}</h1>
-<table>
-    <tr ng-repeat="(key, value) in ctrl.currentPhone.features">
-        <td>{{key}}</td>
-        <td>{{value}}</td>
+<table repeater data="ctrl.currentPhone.features">
+    <tr>
+        <td>{{$index}}</td>
+        <td>{{$value}}</td>
     </tr>
 </table>
 <p>{{ctrl.currentPhone.desc}}</p>
