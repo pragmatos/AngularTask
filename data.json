@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "IPhone",
     "price": "1200",
     "img": "images.jpg",
@@ -19,6 +20,7 @@
     "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
   },
   {
+    "id": 1,
     "name": "Sumsung",
     "price": "1500",
     "img": "iPhone6SpaceGrey._SS300_.png",
@@ -38,6 +40,7 @@
     "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
   },
   {
+    "id": 2,
     "name": "Iphone",
     "price": "1000",
     "img": "Apple-iPhone-5s.jpg",
@@ -57,6 +60,7 @@
     "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
   },
   {
+    "id": 3,
     "name": "Nokia",
     "price": "1920",
     "img": "nokia.png",
