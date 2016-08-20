@@ -3,11 +3,27 @@ angular.module('app')
         return {
             replace: true,
             scope: {
-                item: '='
+                item: '=',
             },
             templateUrl: './templates/phone.html',
             link: function(scope, el, attr){
-                console.log(scope);
+                scope.moreshow = false;
+                scope.showDetails = function(ev, item){
+                    ev.stopPropagation();
+                    scope.$emit('show', item);
+                };
+                scope.toggle = function(){
+                    scope.$emit('closeDetail');
+                    scope.moreshow = !scope.moreshow;
+                };
+                /*
+                el.bind('click', function(e){
+                    scope.$apply(function(){
+                        scope.$emit('closeDetail');
+                        scope.moreshow = !scope.moreshow;
+                    });
+                });*/
+
             }
         };
     });

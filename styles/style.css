@@ -55,6 +55,7 @@ li{
     padding:0 15px;
 }
 .show-details{
+    display: none;
     font-weight: bold;
     position: absolute;
     bottom: 10px;
@@ -64,4 +65,8 @@ li{
     text-decoration: none;
     color:#7fd57b;
 }
+.active .show-details{
+    display: block;
+}
+
 

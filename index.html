@@ -5,53 +5,14 @@
     <title>Phones</title>
     <link rel="stylesheet" href="styles/style.css"/>
 </head>
-<body>
-    <section class="phones" ng-controller="PhonesController as ctrl">
+<body ng-controller="PhonesController as ctrl">
+    <section class="phones" >
         <ul repeater data="ctrl.phones">
-
             <phone item="$value"></phone>
-            <article class="phone">
-                    <header>
-                        <span class="name">{{$value}}</span>
-                        <span class="price">{{$index}}</span>
-                    </header>
-                    <p>description of an product</p>
-                    <div class="separator"></div>
-                </article>
-            <li>
-                <article class="phone active">
-                    <header>
-                        <span class="name">NOKIA</span>
-                        <span class="price">1930</span>
-                    </header>
-                    <p>description of an product</p>
-                    <div class="show-details">
-                        <a href="">view details</a>
-                    </div>
-                    <div class="separator"></div>
-                </article>
-            </li>
-            <li>
-                <article class="phone">
-                    <header>
-                        <span class="name">NOKIA</span>
-                        <span class="price">1930</span>
-                    </header>
-                    <p>description of an product</p>
-                    <div class="separator"></div>
-                </article>
-            </li>
-            <li>
-                <article class="phone">
-                    <header>
-                        <span class="name">NOKIA</span>
-                        <span class="price">1930</span>
-                    </header>
-                    <p>description of an product</p>
-                    <div class="separator"></div>
-                </article>
-            </li>-->
         </ul>
+    </section>
+    <section class="detail" ng-include="'templates/detailPhone.html'" ng-if="ctrl.showDetail">
+
     </section>
 
     <script src="node_modules/angular/angular.js"></script>

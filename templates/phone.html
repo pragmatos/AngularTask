@@ -1,11 +1,14 @@
 <li>
-    <article class="phone">
-        <header>
-            <span class="name">{{item.fname}}</span>
-            <span class="price">{{item.lname}}</span>
+    <article class="phone" ng-class="{active:moreshow}" ng-click="toggle($event)">
+        <header >
+            <span class="name">{{item.name}}</span>
+            <span class="price">{{item.price| currency:'$'}}</span>
         </header>
-        <p>description of an product</p>
-
+        <p ng-if="!moreshow">{{item.smallDesc}}</p>
+        <p ng-if="moreshow">{{item.middleDesc}}</p>
+        <div class="show-details">
+            <a href="#" ng-click="showDetails($event, item, index)">view details</a>
+        </div>
         <div class="separator"></div>
     </article>
 </li>

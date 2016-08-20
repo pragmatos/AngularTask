@@ -1,7 +1,11 @@
 [
   {
-    "fname": "Emil",
-    "lname": "Fruscione"
+    "name": "Nokia",
+    "price": "1234",
+    "model": "3110",
+    "smallDesc": "description of an product",
+    "middleDesc": "description of an product description of an product",
+    "desc": ""
   },
   {
     "fname": "Carl",
