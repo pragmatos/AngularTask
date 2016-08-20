@@ -1,14 +1,74 @@
 [
   {
-    "name": "Nokia",
-    "price": "1234",
-    "model": "3110",
+    "name": "Nokia1",
+    "price": "1200",
+    "model": "3110 standart",
     "smallDesc": "description of an product",
-    "middleDesc": "description of an product description of an product",
-    "desc": ""
+    "middleDesc": "description of an product some more of an product some more of an product",
+    "features": {
+      "class": "middle",
+      "year": 1999,
+      "standart": "GSM 900",
+      "battery": "1900 мА",
+      "time": "5 hour of talk",
+      "display": "26345 colors",
+      "weigth": "87 gramm",
+      "dimensions": "108x50x20"
+    },
+    "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
   },
   {
-    "fname": "Carl",
-    "lname": "Gage"
-  }
+    "name": "Nokia4",
+    "price": "1230",
+    "model": "3110 standart",
+    "smallDesc": "description of an product",
+    "middleDesc": "description of an product some more of an product some more of an product",
+    "features": {
+      "class": "middle",
+      "year": 1999,
+      "standart": "GSM 900",
+      "battery": "1900 мА",
+      "time": "5 hour of talk",
+      "display": "26345 colors",
+      "weigth": "87 gramm",
+      "dimensions": "108x50x20"
+    },
+    "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
+  },
+  {
+    "name": "Nokia2",
+    "price": "1000",
+    "model": "3110",
+    "smallDesc": "description of an product",
+    "middleDesc": "description of an product some more of an product some more of an product",
+    "features": {
+      "class": "middle",
+      "year": 1999,
+      "standart": "GSM 900",
+      "battery": "1900 мА",
+      "time": "5 hour of talk",
+      "display": "26345 colors",
+      "weigth": "87 gramm",
+      "dimensions": "108x50x20"
+    },
+    "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
+  },
+  {
+  "name": "Nokia3",
+  "price": "1920",
+  "model": "3110",
+  "smallDesc": "description of an product",
+  "middleDesc": "description of an product some more of an product some more of an product",
+  "features": {
+    "class": "middle",
+    "year": 1999,
+    "standart": "GSM 900",
+    "battery": "1900 мА",
+    "time": "5 hour of talk",
+    "display": "26345 colors",
+    "weigth": "87 gramm",
+    "dimensions": "108x50x20"
+  },
+  "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
+}
 ]

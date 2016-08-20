@@ -15,7 +15,4 @@ angular.module('app')
         $scope.$on('closeDetail', function(){
             vm.showDetail = false;
         });
-        vm.showDetails = function (item) {
-            console.log(item);
-        }
     }]);

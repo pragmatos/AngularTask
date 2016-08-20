@@ -3,7 +3,7 @@ angular.module('app')
         return {
             replace: true,
             scope: {
-                item: '=',
+                item: '='
             },
             templateUrl: './templates/phone.html',
             link: function(scope, el, attr){
@@ -16,13 +16,6 @@ angular.module('app')
                     scope.$emit('closeDetail');
                     scope.moreshow = !scope.moreshow;
                 };
-                /*
-                el.bind('click', function(e){
-                    scope.$apply(function(){
-                        scope.$emit('closeDetail');
-                        scope.moreshow = !scope.moreshow;
-                    });
-                });*/
 
             }
         };
