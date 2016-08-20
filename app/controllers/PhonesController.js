@@ -3,7 +3,7 @@ angular.module('app')
         var vm = this;
 
         vm.phones = [];
-        vm.currentPhone;
+        vm.currentPhone = null;
         vm.showDetail = false;
         PhonesService.getPhones(function (phones) {
             vm.phones = phones;

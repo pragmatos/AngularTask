@@ -1,4 +1,4 @@
-<img src="./images/nokia.png" alt=""/>
+<img ng-src="{{'./images/'+ctrl.currentPhone.img}}" alt=""/>
 <h1>Основные характеристики телефона: <br/>{{ctrl.currentPhone.name+ " "+ ctrl.currentPhone.model}}</h1>
 <table>
     <tr ng-repeat="(key, value) in ctrl.currentPhone.features">

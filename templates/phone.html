@@ -2,7 +2,7 @@
     <article class="phone" ng-class="{active:moreshow}" ng-click="toggle($event)">
         <header >
             <span class="name">{{item.name}}</span>
-            <span class="price">{{item.price| currency:'$'}}</span>
+            <span class="price">{{item.price+' $'}}</span>
         </header>
         <p ng-if="!moreshow">{{item.smallDesc}}</p>
         <p ng-if="moreshow">{{item.middleDesc}}</p>
