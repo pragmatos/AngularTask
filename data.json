@@ -1,0 +1,82 @@
+[
+  {
+    "id": 0,
+    "name": "IPhone",
+    "price": "1200",
+    "img": "images.jpg",
+    "model": "5s",
+    "smallDesc": "description of an product",
+    "middleDesc": "description of an product some more of an product some more of an product",
+    "features": {
+      "class": "middle",
+      "year": 1999,
+      "standart": "GSM 900",
+      "battery": "1900 мА",
+      "time": "5 hour of talk",
+      "display": "26345 colors",
+      "weigth": "87 gramm",
+      "dimensions": "108x50x20"
+    },
+    "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
+  },
+  {
+    "id": 1,
+    "name": "Sumsung",
+    "price": "1500",
+    "img": "iPhone6SpaceGrey._SS300_.png",
+    "model": "galaxy 6",
+    "smallDesc": "description of an product",
+    "middleDesc": "description of an product some more of an product some more of an product",
+    "features": {
+      "class": "middle",
+      "year": 1999,
+      "standart": "GSM 900",
+      "battery": "1900 мА",
+      "time": "5 hour of talk",
+      "display": "26345 colors",
+      "weigth": "87 gramm",
+      "dimensions": "108x50x20"
+    },
+    "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
+  },
+  {
+    "id": 2,
+    "name": "Iphone",
+    "price": "1000",
+    "img": "Apple-iPhone-5s.jpg",
+    "model": "6s",
+    "smallDesc": "description of an product",
+    "middleDesc": "description of an product some more of an product some more of an product",
+    "features": {
+      "class": "middle",
+      "year": 1999,
+      "standart": "GSM 900",
+      "battery": "1900 мА",
+      "time": "5 hour of talk",
+      "display": "26345 colors",
+      "weigth": "87 gramm",
+      "dimensions": "108x50x20"
+    },
+    "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
+  },
+  {
+    "id": 3,
+    "name": "Nokia",
+    "price": "1920",
+    "img": "nokia.png",
+    "model": "3110 standart",
+    "smallDesc": "description of an product",
+    "middleDesc": "description of an product some more of an product some more of an product",
+    "features": {
+      "class": "middle",
+      "year": 1999,
+      "standart": "GSM 900",
+      "battery": "1900 мА",
+      "time": "5 hour of talk",
+      "display": "26345 colors",
+      "weigth": "87 gramm",
+      "dimensions": "108x50x20"
+    },
+    "desc": "description of an product description of an product description of an product description of an product description of an product description of an product"
+  }
+]

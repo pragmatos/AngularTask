@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>Phones</title>
+    <link rel="stylesheet" href="styles/style.css"/>
 </head>
-<body>
-{{2+2}}
-<script src="node_modules/angular/angular.js"></script>
+<body ng-controller="PhonesController as ctrl">
+    <section class="phones" >
+        <ul repeater data="ctrl.phones">
+            <phone item="$value"></phone>
+        </ul>
+    </section>
+    <section class="detail" ng-include="'templates/detailPhone.html'" ng-if="ctrl.showDetail"></section>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app/services/PhonesService.js"></script>
+    <script src="app/directives/repeater.js"></script>
+    <script src="app/directives/phone.js"></script>
+
+    <script src="app/controllers/PhonesController.js"></script>
 </body>
 </html>
